@@ -1,0 +1,22 @@
+{
+  "final_hypervolume_agent": 0.8556,
+  "final_hypervolume_random": 0.7491,
+  "median_experiments_to_first_pass_agent": 12.5,
+  "median_experiments_to_first_pass_random": 15.5,
+  "experiment_reduction_pct": 19.4,
+  "qc_gate": {
+    "coverage": {
+      "yield_nM": 0.9567,
+      "complexity": 0.9233,
+      "purity": 0.9367
+    },
+    "target_coverage": 0.9,
+    "auto_decided_rate": 0.7867,
+    "auto_error_rate": 0.0,
+    "escalate_rate": 0.2133,
+    "naive_gate_error_rate": 0.0267,
+    "naive_gate_false_accept_rate": 0.0233,
+    "naive_err_on_conformal_auto_set": 0.0,
+    "naive_err_on_conformal_escalated_set": 0.125
+  }
+}

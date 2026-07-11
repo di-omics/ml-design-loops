@@ -1,0 +1,8 @@
+# Core: sim-first, CPU-only.
+pylabrobot>=0.2.1
+numpy>=1.26
+matplotlib>=3.8
+
+# Optional ESM-2 design arm (foundation-model prior). Install separately:
+#   pip install torch transformers
+# The loop falls back to a light surrogate designer if these are absent.

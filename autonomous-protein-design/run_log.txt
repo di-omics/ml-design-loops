@@ -1,0 +1,1308 @@
+Setting up the liquid handler.
+Setting up thermocycler.
+Setting up shaker
+Picking up tips:
+pip#  resource             offset           tip type     max volume (µL)  fitting depth (mm)   tip length (mm)  filter    
+  p0: tips_0_tipspot_A1    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p1: tips_0_tipspot_B1    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p2: tips_0_tipspot_C1    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p3: tips_0_tipspot_D1    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p4: tips_0_tipspot_E1    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p5: tips_0_tipspot_F1    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p6: tips_0_tipspot_G1    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p7: tips_0_tipspot_H1    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+Aspirating:
+pip#  vol(ul)  resource             offset           flow rate  blowout    lld_z       
+  p0: 15.0     assembly_mastermix   0,45.9,0         None       None       None       
+  p1: 15.0     assembly_mastermix   0,32.8,0         None       None       None       
+  p2: 15.0     assembly_mastermix   0,19.7,0         None       None       None       
+  p3: 15.0     assembly_mastermix   0,6.6,0          None       None       None       
+  p4: 15.0     assembly_mastermix   0,-6.6,0         None       None       None       
+  p5: 15.0     assembly_mastermix   0,-19.7,0        None       None       None       
+  p6: 15.0     assembly_mastermix   0,-32.8,0        None       None       None       
+  p7: 15.0     assembly_mastermix   0,-45.9,0        None       None       None       
+Dispensing:
+pip#  vol(ul)  resource             offset           flow rate  blowout    lld_z       
+  p0: 15.0     action_plate_well_A1 0,0,0            None       None       None       
+  p1: 15.0     action_plate_well_B1 0,0,0            None       None       None       
+  p2: 15.0     action_plate_well_C1 0,0,0            None       None       None       
+  p3: 15.0     action_plate_well_D1 0,0,0            None       None       None       
+  p4: 15.0     action_plate_well_E1 0,0,0            None       None       None       
+  p5: 15.0     action_plate_well_F1 0,0,0            None       None       None       
+  p6: 15.0     action_plate_well_G1 0,0,0            None       None       None       
+  p7: 15.0     action_plate_well_H1 0,0,0            None       None       None       
+Dropping tips:
+pip#  resource             offset           tip type     max volume (µL)  fitting depth (mm)   tip length (mm)  filter    
+  p0: tips_0_tipspot_A1    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p1: tips_0_tipspot_B1    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p2: tips_0_tipspot_C1    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p3: tips_0_tipspot_D1    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p4: tips_0_tipspot_E1    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p5: tips_0_tipspot_F1    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p6: tips_0_tipspot_G1    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p7: tips_0_tipspot_H1    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+Picking up tips:
+pip#  resource             offset           tip type     max volume (µL)  fitting depth (mm)   tip length (mm)  filter    
+  p0: tips_0_tipspot_A2    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p1: tips_0_tipspot_B2    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p2: tips_0_tipspot_C2    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p3: tips_0_tipspot_D2    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p4: tips_0_tipspot_E2    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p5: tips_0_tipspot_F2    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p6: tips_0_tipspot_G2    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p7: tips_0_tipspot_H2    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+Aspirating:
+pip#  vol(ul)  resource             offset           flow rate  blowout    lld_z       
+  p0: 15.0     assembly_mastermix   0,45.9,0         None       None       None       
+  p1: 15.0     assembly_mastermix   0,32.8,0         None       None       None       
+  p2: 15.0     assembly_mastermix   0,19.7,0         None       None       None       
+  p3: 15.0     assembly_mastermix   0,6.6,0          None       None       None       
+  p4: 15.0     assembly_mastermix   0,-6.6,0         None       None       None       
+  p5: 15.0     assembly_mastermix   0,-19.7,0        None       None       None       
+  p6: 15.0     assembly_mastermix   0,-32.8,0        None       None       None       
+  p7: 15.0     assembly_mastermix   0,-45.9,0        None       None       None       
+Dispensing:
+pip#  vol(ul)  resource             offset           flow rate  blowout    lld_z       
+  p0: 15.0     action_plate_well_A2 0,0,0            None       None       None       
+  p1: 15.0     action_plate_well_B2 0,0,0            None       None       None       
+  p2: 15.0     action_plate_well_C2 0,0,0            None       None       None       
+  p3: 15.0     action_plate_well_D2 0,0,0            None       None       None       
+  p4: 15.0     action_plate_well_E2 0,0,0            None       None       None       
+  p5: 15.0     action_plate_well_F2 0,0,0            None       None       None       
+  p6: 15.0     action_plate_well_G2 0,0,0            None       None       None       
+  p7: 15.0     action_plate_well_H2 0,0,0            None       None       None       
+Dropping tips:
+pip#  resource             offset           tip type     max volume (µL)  fitting depth (mm)   tip length (mm)  filter    
+  p0: tips_0_tipspot_A2    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p1: tips_0_tipspot_B2    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p2: tips_0_tipspot_C2    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p3: tips_0_tipspot_D2    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p4: tips_0_tipspot_E2    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p5: tips_0_tipspot_F2    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p6: tips_0_tipspot_G2    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p7: tips_0_tipspot_H2    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+Picking up tips:
+pip#  resource             offset           tip type     max volume (µL)  fitting depth (mm)   tip length (mm)  filter    
+  p0: tips_0_tipspot_A3    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p1: tips_0_tipspot_B3    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p2: tips_0_tipspot_C3    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p3: tips_0_tipspot_D3    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p4: tips_0_tipspot_E3    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p5: tips_0_tipspot_F3    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p6: tips_0_tipspot_G3    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p7: tips_0_tipspot_H3    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+Aspirating:
+pip#  vol(ul)  resource             offset           flow rate  blowout    lld_z       
+  p0: 15.0     assembly_mastermix   0,45.9,0         None       None       None       
+  p1: 15.0     assembly_mastermix   0,32.8,0         None       None       None       
+  p2: 15.0     assembly_mastermix   0,19.7,0         None       None       None       
+  p3: 15.0     assembly_mastermix   0,6.6,0          None       None       None       
+  p4: 15.0     assembly_mastermix   0,-6.6,0         None       None       None       
+  p5: 15.0     assembly_mastermix   0,-19.7,0        None       None       None       
+  p6: 15.0     assembly_mastermix   0,-32.8,0        None       None       None       
+  p7: 15.0     assembly_mastermix   0,-45.9,0        None       None       None       
+Dispensing:
+pip#  vol(ul)  resource             offset           flow rate  blowout    lld_z       
+  p0: 15.0     action_plate_well_A3 0,0,0            None       None       None       
+  p1: 15.0     action_plate_well_B3 0,0,0            None       None       None       
+  p2: 15.0     action_plate_well_C3 0,0,0            None       None       None       
+  p3: 15.0     action_plate_well_D3 0,0,0            None       None       None       
+  p4: 15.0     action_plate_well_E3 0,0,0            None       None       None       
+  p5: 15.0     action_plate_well_F3 0,0,0            None       None       None       
+  p6: 15.0     action_plate_well_G3 0,0,0            None       None       None       
+  p7: 15.0     action_plate_well_H3 0,0,0            None       None       None       
+Dropping tips:
+pip#  resource             offset           tip type     max volume (µL)  fitting depth (mm)   tip length (mm)  filter    
+  p0: tips_0_tipspot_A3    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p1: tips_0_tipspot_B3    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p2: tips_0_tipspot_C3    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p3: tips_0_tipspot_D3    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p4: tips_0_tipspot_E3    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p5: tips_0_tipspot_F3    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p6: tips_0_tipspot_G3    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p7: tips_0_tipspot_H3    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+Picking up tips:
+pip#  resource             offset           tip type     max volume (µL)  fitting depth (mm)   tip length (mm)  filter    
+  p0: tips_0_tipspot_A4    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p1: tips_0_tipspot_B4    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p2: tips_0_tipspot_C4    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p3: tips_0_tipspot_D4    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p4: tips_0_tipspot_E4    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p5: tips_0_tipspot_F4    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p6: tips_0_tipspot_G4    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p7: tips_0_tipspot_H4    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+Aspirating:
+pip#  vol(ul)  resource             offset           flow rate  blowout    lld_z       
+  p0: 2.0      t_dna_source_well_A1 0,0,0            None       None       None       
+  p1: 2.0      t_dna_source_well_B1 0,0,0            None       None       None       
+  p2: 2.0      t_dna_source_well_C1 0,0,0            None       None       None       
+  p3: 2.0      t_dna_source_well_D1 0,0,0            None       None       None       
+  p4: 2.0      t_dna_source_well_E1 0,0,0            None       None       None       
+  p5: 2.0      t_dna_source_well_F1 0,0,0            None       None       None       
+  p6: 2.0      t_dna_source_well_G1 0,0,0            None       None       None       
+  p7: 2.0      t_dna_source_well_H1 0,0,0            None       None       None       
+Dispensing:
+pip#  vol(ul)  resource             offset           flow rate  blowout    lld_z       
+  p0: 2.0      action_plate_well_A1 0,0,0            None       None       None       
+  p1: 2.0      action_plate_well_B1 0,0,0            None       None       None       
+  p2: 2.0      action_plate_well_C1 0,0,0            None       None       None       
+  p3: 2.0      action_plate_well_D1 0,0,0            None       None       None       
+  p4: 2.0      action_plate_well_E1 0,0,0            None       None       None       
+  p5: 2.0      action_plate_well_F1 0,0,0            None       None       None       
+  p6: 2.0      action_plate_well_G1 0,0,0            None       None       None       
+  p7: 2.0      action_plate_well_H1 0,0,0            None       None       None       
+Aspirating:
+pip#  vol(ul)  resource             offset           flow rate  blowout    lld_z       
+  p0: 2.0      action_plate_well_A1 0,0,0            None       None       None       
+  p1: 2.0      action_plate_well_B1 0,0,0            None       None       None       
+  p2: 2.0      action_plate_well_C1 0,0,0            None       None       None       
+  p3: 2.0      action_plate_well_D1 0,0,0            None       None       None       
+  p4: 2.0      action_plate_well_E1 0,0,0            None       None       None       
+  p5: 2.0      action_plate_well_F1 0,0,0            None       None       None       
+  p6: 2.0      action_plate_well_G1 0,0,0            None       None       None       
+  p7: 2.0      action_plate_well_H1 0,0,0            None       None       None       
+Dispensing:
+pip#  vol(ul)  resource             offset           flow rate  blowout    lld_z       
+  p0: 2.0      action_plate_well_A1 0,0,0            None       None       None       
+  p1: 2.0      action_plate_well_B1 0,0,0            None       None       None       
+  p2: 2.0      action_plate_well_C1 0,0,0            None       None       None       
+  p3: 2.0      action_plate_well_D1 0,0,0            None       None       None       
+  p4: 2.0      action_plate_well_E1 0,0,0            None       None       None       
+  p5: 2.0      action_plate_well_F1 0,0,0            None       None       None       
+  p6: 2.0      action_plate_well_G1 0,0,0            None       None       None       
+  p7: 2.0      action_plate_well_H1 0,0,0            None       None       None       
+Aspirating:
+pip#  vol(ul)  resource             offset           flow rate  blowout    lld_z       
+  p0: 2.0      action_plate_well_A1 0,0,0            None       None       None       
+  p1: 2.0      action_plate_well_B1 0,0,0            None       None       None       
+  p2: 2.0      action_plate_well_C1 0,0,0            None       None       None       
+  p3: 2.0      action_plate_well_D1 0,0,0            None       None       None       
+  p4: 2.0      action_plate_well_E1 0,0,0            None       None       None       
+  p5: 2.0      action_plate_well_F1 0,0,0            None       None       None       
+  p6: 2.0      action_plate_well_G1 0,0,0            None       None       None       
+  p7: 2.0      action_plate_well_H1 0,0,0            None       None       None       
+Dispensing:
+pip#  vol(ul)  resource             offset           flow rate  blowout    lld_z       
+  p0: 2.0      action_plate_well_A1 0,0,0            None       None       None       
+  p1: 2.0      action_plate_well_B1 0,0,0            None       None       None       
+  p2: 2.0      action_plate_well_C1 0,0,0            None       None       None       
+  p3: 2.0      action_plate_well_D1 0,0,0            None       None       None       
+  p4: 2.0      action_plate_well_E1 0,0,0            None       None       None       
+  p5: 2.0      action_plate_well_F1 0,0,0            None       None       None       
+  p6: 2.0      action_plate_well_G1 0,0,0            None       None       None       
+  p7: 2.0      action_plate_well_H1 0,0,0            None       None       None       
+Aspirating:
+pip#  vol(ul)  resource             offset           flow rate  blowout    lld_z       
+  p0: 2.0      action_plate_well_A1 0,0,0            None       None       None       
+  p1: 2.0      action_plate_well_B1 0,0,0            None       None       None       
+  p2: 2.0      action_plate_well_C1 0,0,0            None       None       None       
+  p3: 2.0      action_plate_well_D1 0,0,0            None       None       None       
+  p4: 2.0      action_plate_well_E1 0,0,0            None       None       None       
+  p5: 2.0      action_plate_well_F1 0,0,0            None       None       None       
+  p6: 2.0      action_plate_well_G1 0,0,0            None       None       None       
+  p7: 2.0      action_plate_well_H1 0,0,0            None       None       None       
+Dispensing:
+pip#  vol(ul)  resource             offset           flow rate  blowout    lld_z       
+  p0: 2.0      action_plate_well_A1 0,0,0            None       None       None       
+  p1: 2.0      action_plate_well_B1 0,0,0            None       None       None       
+  p2: 2.0      action_plate_well_C1 0,0,0            None       None       None       
+  p3: 2.0      action_plate_well_D1 0,0,0            None       None       None       
+  p4: 2.0      action_plate_well_E1 0,0,0            None       None       None       
+  p5: 2.0      action_plate_well_F1 0,0,0            None       None       None       
+  p6: 2.0      action_plate_well_G1 0,0,0            None       None       None       
+  p7: 2.0      action_plate_well_H1 0,0,0            None       None       None       
+Dropping tips:
+pip#  resource             offset           tip type     max volume (µL)  fitting depth (mm)   tip length (mm)  filter    
+  p0: tips_0_tipspot_A4    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p1: tips_0_tipspot_B4    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p2: tips_0_tipspot_C4    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p3: tips_0_tipspot_D4    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p4: tips_0_tipspot_E4    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p5: tips_0_tipspot_F4    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p6: tips_0_tipspot_G4    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p7: tips_0_tipspot_H4    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+Picking up tips:
+pip#  resource             offset           tip type     max volume (µL)  fitting depth (mm)   tip length (mm)  filter    
+  p0: tips_0_tipspot_A5    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p1: tips_0_tipspot_B5    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p2: tips_0_tipspot_C5    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p3: tips_0_tipspot_D5    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p4: tips_0_tipspot_E5    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p5: tips_0_tipspot_F5    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p6: tips_0_tipspot_G5    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p7: tips_0_tipspot_H5    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+Aspirating:
+pip#  vol(ul)  resource             offset           flow rate  blowout    lld_z       
+  p0: 2.0      t_dna_source_well_A2 0,0,0            None       None       None       
+  p1: 2.0      t_dna_source_well_B2 0,0,0            None       None       None       
+  p2: 2.0      t_dna_source_well_C2 0,0,0            None       None       None       
+  p3: 2.0      t_dna_source_well_D2 0,0,0            None       None       None       
+  p4: 2.0      t_dna_source_well_E2 0,0,0            None       None       None       
+  p5: 2.0      t_dna_source_well_F2 0,0,0            None       None       None       
+  p6: 2.0      t_dna_source_well_G2 0,0,0            None       None       None       
+  p7: 2.0      t_dna_source_well_H2 0,0,0            None       None       None       
+Dispensing:
+pip#  vol(ul)  resource             offset           flow rate  blowout    lld_z       
+  p0: 2.0      action_plate_well_A2 0,0,0            None       None       None       
+  p1: 2.0      action_plate_well_B2 0,0,0            None       None       None       
+  p2: 2.0      action_plate_well_C2 0,0,0            None       None       None       
+  p3: 2.0      action_plate_well_D2 0,0,0            None       None       None       
+  p4: 2.0      action_plate_well_E2 0,0,0            None       None       None       
+  p5: 2.0      action_plate_well_F2 0,0,0            None       None       None       
+  p6: 2.0      action_plate_well_G2 0,0,0            None       None       None       
+  p7: 2.0      action_plate_well_H2 0,0,0            None       None       None       
+Aspirating:
+pip#  vol(ul)  resource             offset           flow rate  blowout    lld_z       
+  p0: 2.0      action_plate_well_A2 0,0,0            None       None       None       
+  p1: 2.0      action_plate_well_B2 0,0,0            None       None       None       
+  p2: 2.0      action_plate_well_C2 0,0,0            None       None       None       
+  p3: 2.0      action_plate_well_D2 0,0,0            None       None       None       
+  p4: 2.0      action_plate_well_E2 0,0,0            None       None       None       
+  p5: 2.0      action_plate_well_F2 0,0,0            None       None       None       
+  p6: 2.0      action_plate_well_G2 0,0,0            None       None       None       
+  p7: 2.0      action_plate_well_H2 0,0,0            None       None       None       
+Dispensing:
+pip#  vol(ul)  resource             offset           flow rate  blowout    lld_z       
+  p0: 2.0      action_plate_well_A2 0,0,0            None       None       None       
+  p1: 2.0      action_plate_well_B2 0,0,0            None       None       None       
+  p2: 2.0      action_plate_well_C2 0,0,0            None       None       None       
+  p3: 2.0      action_plate_well_D2 0,0,0            None       None       None       
+  p4: 2.0      action_plate_well_E2 0,0,0            None       None       None       
+  p5: 2.0      action_plate_well_F2 0,0,0            None       None       None       
+  p6: 2.0      action_plate_well_G2 0,0,0            None       None       None       
+  p7: 2.0      action_plate_well_H2 0,0,0            None       None       None       
+Aspirating:
+pip#  vol(ul)  resource             offset           flow rate  blowout    lld_z       
+  p0: 2.0      action_plate_well_A2 0,0,0            None       None       None       
+  p1: 2.0      action_plate_well_B2 0,0,0            None       None       None       
+  p2: 2.0      action_plate_well_C2 0,0,0            None       None       None       
+  p3: 2.0      action_plate_well_D2 0,0,0            None       None       None       
+  p4: 2.0      action_plate_well_E2 0,0,0            None       None       None       
+  p5: 2.0      action_plate_well_F2 0,0,0            None       None       None       
+  p6: 2.0      action_plate_well_G2 0,0,0            None       None       None       
+  p7: 2.0      action_plate_well_H2 0,0,0            None       None       None       
+Dispensing:
+pip#  vol(ul)  resource             offset           flow rate  blowout    lld_z       
+  p0: 2.0      action_plate_well_A2 0,0,0            None       None       None       
+  p1: 2.0      action_plate_well_B2 0,0,0            None       None       None       
+  p2: 2.0      action_plate_well_C2 0,0,0            None       None       None       
+  p3: 2.0      action_plate_well_D2 0,0,0            None       None       None       
+  p4: 2.0      action_plate_well_E2 0,0,0            None       None       None       
+  p5: 2.0      action_plate_well_F2 0,0,0            None       None       None       
+  p6: 2.0      action_plate_well_G2 0,0,0            None       None       None       
+  p7: 2.0      action_plate_well_H2 0,0,0            None       None       None       
+Aspirating:
+pip#  vol(ul)  resource             offset           flow rate  blowout    lld_z       
+  p0: 2.0      action_plate_well_A2 0,0,0            None       None       None       
+  p1: 2.0      action_plate_well_B2 0,0,0            None       None       None       
+  p2: 2.0      action_plate_well_C2 0,0,0            None       None       None       
+  p3: 2.0      action_plate_well_D2 0,0,0            None       None       None       
+  p4: 2.0      action_plate_well_E2 0,0,0            None       None       None       
+  p5: 2.0      action_plate_well_F2 0,0,0            None       None       None       
+  p6: 2.0      action_plate_well_G2 0,0,0            None       None       None       
+  p7: 2.0      action_plate_well_H2 0,0,0            None       None       None       
+Dispensing:
+pip#  vol(ul)  resource             offset           flow rate  blowout    lld_z       
+  p0: 2.0      action_plate_well_A2 0,0,0            None       None       None       
+  p1: 2.0      action_plate_well_B2 0,0,0            None       None       None       
+  p2: 2.0      action_plate_well_C2 0,0,0            None       None       None       
+  p3: 2.0      action_plate_well_D2 0,0,0            None       None       None       
+  p4: 2.0      action_plate_well_E2 0,0,0            None       None       None       
+  p5: 2.0      action_plate_well_F2 0,0,0            None       None       None       
+  p6: 2.0      action_plate_well_G2 0,0,0            None       None       None       
+  p7: 2.0      action_plate_well_H2 0,0,0            None       None       None       
+Dropping tips:
+pip#  resource             offset           tip type     max volume (µL)  fitting depth (mm)   tip length (mm)  filter    
+  p0: tips_0_tipspot_A5    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p1: tips_0_tipspot_B5    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p2: tips_0_tipspot_C5    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p3: tips_0_tipspot_D5    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p4: tips_0_tipspot_E5    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p5: tips_0_tipspot_F5    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p6: tips_0_tipspot_G5    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p7: tips_0_tipspot_H5    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+Picking up tips:
+pip#  resource             offset           tip type     max volume (µL)  fitting depth (mm)   tip length (mm)  filter    
+  p0: tips_0_tipspot_A6    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p1: tips_0_tipspot_B6    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p2: tips_0_tipspot_C6    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p3: tips_0_tipspot_D6    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p4: tips_0_tipspot_E6    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p5: tips_0_tipspot_F6    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p6: tips_0_tipspot_G6    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p7: tips_0_tipspot_H6    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+Aspirating:
+pip#  vol(ul)  resource             offset           flow rate  blowout    lld_z       
+  p0: 2.0      t_dna_source_well_A3 0,0,0            None       None       None       
+  p1: 2.0      t_dna_source_well_B3 0,0,0            None       None       None       
+  p2: 2.0      t_dna_source_well_C3 0,0,0            None       None       None       
+  p3: 2.0      t_dna_source_well_D3 0,0,0            None       None       None       
+  p4: 2.0      t_dna_source_well_E3 0,0,0            None       None       None       
+  p5: 2.0      t_dna_source_well_F3 0,0,0            None       None       None       
+  p6: 2.0      t_dna_source_well_G3 0,0,0            None       None       None       
+  p7: 2.0      t_dna_source_well_H3 0,0,0            None       None       None       
+Dispensing:
+pip#  vol(ul)  resource             offset           flow rate  blowout    lld_z       
+  p0: 2.0      action_plate_well_A3 0,0,0            None       None       None       
+  p1: 2.0      action_plate_well_B3 0,0,0            None       None       None       
+  p2: 2.0      action_plate_well_C3 0,0,0            None       None       None       
+  p3: 2.0      action_plate_well_D3 0,0,0            None       None       None       
+  p4: 2.0      action_plate_well_E3 0,0,0            None       None       None       
+  p5: 2.0      action_plate_well_F3 0,0,0            None       None       None       
+  p6: 2.0      action_plate_well_G3 0,0,0            None       None       None       
+  p7: 2.0      action_plate_well_H3 0,0,0            None       None       None       
+Aspirating:
+pip#  vol(ul)  resource             offset           flow rate  blowout    lld_z       
+  p0: 2.0      action_plate_well_A3 0,0,0            None       None       None       
+  p1: 2.0      action_plate_well_B3 0,0,0            None       None       None       
+  p2: 2.0      action_plate_well_C3 0,0,0            None       None       None       
+  p3: 2.0      action_plate_well_D3 0,0,0            None       None       None       
+  p4: 2.0      action_plate_well_E3 0,0,0            None       None       None       
+  p5: 2.0      action_plate_well_F3 0,0,0            None       None       None       
+  p6: 2.0      action_plate_well_G3 0,0,0            None       None       None       
+  p7: 2.0      action_plate_well_H3 0,0,0            None       None       None       
+Dispensing:
+pip#  vol(ul)  resource             offset           flow rate  blowout    lld_z       
+  p0: 2.0      action_plate_well_A3 0,0,0            None       None       None       
+  p1: 2.0      action_plate_well_B3 0,0,0            None       None       None       
+  p2: 2.0      action_plate_well_C3 0,0,0            None       None       None       
+  p3: 2.0      action_plate_well_D3 0,0,0            None       None       None       
+  p4: 2.0      action_plate_well_E3 0,0,0            None       None       None       
+  p5: 2.0      action_plate_well_F3 0,0,0            None       None       None       
+  p6: 2.0      action_plate_well_G3 0,0,0            None       None       None       
+  p7: 2.0      action_plate_well_H3 0,0,0            None       None       None       
+Aspirating:
+pip#  vol(ul)  resource             offset           flow rate  blowout    lld_z       
+  p0: 2.0      action_plate_well_A3 0,0,0            None       None       None       
+  p1: 2.0      action_plate_well_B3 0,0,0            None       None       None       
+  p2: 2.0      action_plate_well_C3 0,0,0            None       None       None       
+  p3: 2.0      action_plate_well_D3 0,0,0            None       None       None       
+  p4: 2.0      action_plate_well_E3 0,0,0            None       None       None       
+  p5: 2.0      action_plate_well_F3 0,0,0            None       None       None       
+  p6: 2.0      action_plate_well_G3 0,0,0            None       None       None       
+  p7: 2.0      action_plate_well_H3 0,0,0            None       None       None       
+Dispensing:
+pip#  vol(ul)  resource             offset           flow rate  blowout    lld_z       
+  p0: 2.0      action_plate_well_A3 0,0,0            None       None       None       
+  p1: 2.0      action_plate_well_B3 0,0,0            None       None       None       
+  p2: 2.0      action_plate_well_C3 0,0,0            None       None       None       
+  p3: 2.0      action_plate_well_D3 0,0,0            None       None       None       
+  p4: 2.0      action_plate_well_E3 0,0,0            None       None       None       
+  p5: 2.0      action_plate_well_F3 0,0,0            None       None       None       
+  p6: 2.0      action_plate_well_G3 0,0,0            None       None       None       
+  p7: 2.0      action_plate_well_H3 0,0,0            None       None       None       
+Aspirating:
+pip#  vol(ul)  resource             offset           flow rate  blowout    lld_z       
+  p0: 2.0      action_plate_well_A3 0,0,0            None       None       None       
+  p1: 2.0      action_plate_well_B3 0,0,0            None       None       None       
+  p2: 2.0      action_plate_well_C3 0,0,0            None       None       None       
+  p3: 2.0      action_plate_well_D3 0,0,0            None       None       None       
+  p4: 2.0      action_plate_well_E3 0,0,0            None       None       None       
+  p5: 2.0      action_plate_well_F3 0,0,0            None       None       None       
+  p6: 2.0      action_plate_well_G3 0,0,0            None       None       None       
+  p7: 2.0      action_plate_well_H3 0,0,0            None       None       None       
+Dispensing:
+pip#  vol(ul)  resource             offset           flow rate  blowout    lld_z       
+  p0: 2.0      action_plate_well_A3 0,0,0            None       None       None       
+  p1: 2.0      action_plate_well_B3 0,0,0            None       None       None       
+  p2: 2.0      action_plate_well_C3 0,0,0            None       None       None       
+  p3: 2.0      action_plate_well_D3 0,0,0            None       None       None       
+  p4: 2.0      action_plate_well_E3 0,0,0            None       None       None       
+  p5: 2.0      action_plate_well_F3 0,0,0            None       None       None       
+  p6: 2.0      action_plate_well_G3 0,0,0            None       None       None       
+  p7: 2.0      action_plate_well_H3 0,0,0            None       None       None       
+Dropping tips:
+pip#  resource             offset           tip type     max volume (µL)  fitting depth (mm)   tip length (mm)  filter    
+  p0: tips_0_tipspot_A6    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p1: tips_0_tipspot_B6    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p2: tips_0_tipspot_C6    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p3: tips_0_tipspot_D6    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p4: tips_0_tipspot_E6    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p5: tips_0_tipspot_F6    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p6: tips_0_tipspot_G6    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p7: tips_0_tipspot_H6    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+Closing lid.
+Setting lid temperature(s) to 105.0°C.
+Setting lid temperature(s) to 105.0°C.
+Running protocol:
+- Stage 1/4: 1 step(s) x 1 repeat(s)
+  - Repeat 1/1:
+    - Step 1/1 (repeat 1/1): temperature(s) = 98.0°C, hold = 30.0s
+- Stage 2/4: 3 step(s) x 18 repeat(s)
+  - Repeat 1/18:
+    - Step 1/3 (repeat 1/18): temperature(s) = 98.0°C, hold = 10.0s
+    - Step 2/3 (repeat 1/18): temperature(s) = 60.0°C, hold = 20.0s
+    - Step 3/3 (repeat 1/18): temperature(s) = 72.0°C, hold = 180.0s
+  - Repeat 2/18:
+    - Step 1/3 (repeat 2/18): temperature(s) = 98.0°C, hold = 10.0s
+    - Step 2/3 (repeat 2/18): temperature(s) = 60.0°C, hold = 20.0s
+    - Step 3/3 (repeat 2/18): temperature(s) = 72.0°C, hold = 180.0s
+  - Repeat 3/18:
+    - Step 1/3 (repeat 3/18): temperature(s) = 98.0°C, hold = 10.0s
+    - Step 2/3 (repeat 3/18): temperature(s) = 60.0°C, hold = 20.0s
+    - Step 3/3 (repeat 3/18): temperature(s) = 72.0°C, hold = 180.0s
+  - Repeat 4/18:
+    - Step 1/3 (repeat 4/18): temperature(s) = 98.0°C, hold = 10.0s
+    - Step 2/3 (repeat 4/18): temperature(s) = 60.0°C, hold = 20.0s
+    - Step 3/3 (repeat 4/18): temperature(s) = 72.0°C, hold = 180.0s
+  - Repeat 5/18:
+    - Step 1/3 (repeat 5/18): temperature(s) = 98.0°C, hold = 10.0s
+    - Step 2/3 (repeat 5/18): temperature(s) = 60.0°C, hold = 20.0s
+    - Step 3/3 (repeat 5/18): temperature(s) = 72.0°C, hold = 180.0s
+  - Repeat 6/18:
+    - Step 1/3 (repeat 6/18): temperature(s) = 98.0°C, hold = 10.0s
+    - Step 2/3 (repeat 6/18): temperature(s) = 60.0°C, hold = 20.0s
+    - Step 3/3 (repeat 6/18): temperature(s) = 72.0°C, hold = 180.0s
+  - Repeat 7/18:
+    - Step 1/3 (repeat 7/18): temperature(s) = 98.0°C, hold = 10.0s
+    - Step 2/3 (repeat 7/18): temperature(s) = 60.0°C, hold = 20.0s
+    - Step 3/3 (repeat 7/18): temperature(s) = 72.0°C, hold = 180.0s
+  - Repeat 8/18:
+    - Step 1/3 (repeat 8/18): temperature(s) = 98.0°C, hold = 10.0s
+    - Step 2/3 (repeat 8/18): temperature(s) = 60.0°C, hold = 20.0s
+    - Step 3/3 (repeat 8/18): temperature(s) = 72.0°C, hold = 180.0s
+  - Repeat 9/18:
+    - Step 1/3 (repeat 9/18): temperature(s) = 98.0°C, hold = 10.0s
+    - Step 2/3 (repeat 9/18): temperature(s) = 60.0°C, hold = 20.0s
+    - Step 3/3 (repeat 9/18): temperature(s) = 72.0°C, hold = 180.0s
+  - Repeat 10/18:
+    - Step 1/3 (repeat 10/18): temperature(s) = 98.0°C, hold = 10.0s
+    - Step 2/3 (repeat 10/18): temperature(s) = 60.0°C, hold = 20.0s
+    - Step 3/3 (repeat 10/18): temperature(s) = 72.0°C, hold = 180.0s
+  - Repeat 11/18:
+    - Step 1/3 (repeat 11/18): temperature(s) = 98.0°C, hold = 10.0s
+    - Step 2/3 (repeat 11/18): temperature(s) = 60.0°C, hold = 20.0s
+    - Step 3/3 (repeat 11/18): temperature(s) = 72.0°C, hold = 180.0s
+  - Repeat 12/18:
+    - Step 1/3 (repeat 12/18): temperature(s) = 98.0°C, hold = 10.0s
+    - Step 2/3 (repeat 12/18): temperature(s) = 60.0°C, hold = 20.0s
+    - Step 3/3 (repeat 12/18): temperature(s) = 72.0°C, hold = 180.0s
+  - Repeat 13/18:
+    - Step 1/3 (repeat 13/18): temperature(s) = 98.0°C, hold = 10.0s
+    - Step 2/3 (repeat 13/18): temperature(s) = 60.0°C, hold = 20.0s
+    - Step 3/3 (repeat 13/18): temperature(s) = 72.0°C, hold = 180.0s
+  - Repeat 14/18:
+    - Step 1/3 (repeat 14/18): temperature(s) = 98.0°C, hold = 10.0s
+    - Step 2/3 (repeat 14/18): temperature(s) = 60.0°C, hold = 20.0s
+    - Step 3/3 (repeat 14/18): temperature(s) = 72.0°C, hold = 180.0s
+  - Repeat 15/18:
+    - Step 1/3 (repeat 15/18): temperature(s) = 98.0°C, hold = 10.0s
+    - Step 2/3 (repeat 15/18): temperature(s) = 60.0°C, hold = 20.0s
+    - Step 3/3 (repeat 15/18): temperature(s) = 72.0°C, hold = 180.0s
+  - Repeat 16/18:
+    - Step 1/3 (repeat 16/18): temperature(s) = 98.0°C, hold = 10.0s
+    - Step 2/3 (repeat 16/18): temperature(s) = 60.0°C, hold = 20.0s
+    - Step 3/3 (repeat 16/18): temperature(s) = 72.0°C, hold = 180.0s
+  - Repeat 17/18:
+    - Step 1/3 (repeat 17/18): temperature(s) = 98.0°C, hold = 10.0s
+    - Step 2/3 (repeat 17/18): temperature(s) = 60.0°C, hold = 20.0s
+    - Step 3/3 (repeat 17/18): temperature(s) = 72.0°C, hold = 180.0s
+  - Repeat 18/18:
+    - Step 1/3 (repeat 18/18): temperature(s) = 98.0°C, hold = 10.0s
+    - Step 2/3 (repeat 18/18): temperature(s) = 60.0°C, hold = 20.0s
+    - Step 3/3 (repeat 18/18): temperature(s) = 72.0°C, hold = 180.0s
+- Stage 3/4: 1 step(s) x 1 repeat(s)
+  - Repeat 1/1:
+    - Step 1/1 (repeat 1/1): temperature(s) = 72.0°C, hold = 300.0s
+- Stage 4/4: 1 step(s) x 1 repeat(s)
+  - Repeat 1/1:
+    - Step 1/1 (repeat 1/1): temperature(s) = 4.0°C, hold = 0.0s
+Opening lid.
+Picking up tips:
+pip#  resource             offset           tip type     max volume (µL)  fitting depth (mm)   tip length (mm)  filter    
+  p0: tips_0_tipspot_A7    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p1: tips_0_tipspot_B7    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p2: tips_0_tipspot_C7    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p3: tips_0_tipspot_D7    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p4: tips_0_tipspot_E7    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p5: tips_0_tipspot_F7    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p6: tips_0_tipspot_G7    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p7: tips_0_tipspot_H7    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+Aspirating:
+pip#  vol(ul)  resource             offset           flow rate  blowout    lld_z       
+  p0: 1.0      dpni                 0,45.9,0         None       None       None       
+  p1: 1.0      dpni                 0,32.8,0         None       None       None       
+  p2: 1.0      dpni                 0,19.7,0         None       None       None       
+  p3: 1.0      dpni                 0,6.6,0          None       None       None       
+  p4: 1.0      dpni                 0,-6.6,0         None       None       None       
+  p5: 1.0      dpni                 0,-19.7,0        None       None       None       
+  p6: 1.0      dpni                 0,-32.8,0        None       None       None       
+  p7: 1.0      dpni                 0,-45.9,0        None       None       None       
+Dispensing:
+pip#  vol(ul)  resource             offset           flow rate  blowout    lld_z       
+  p0: 1.0      action_plate_well_A1 0,0,0            None       None       None       
+  p1: 1.0      action_plate_well_B1 0,0,0            None       None       None       
+  p2: 1.0      action_plate_well_C1 0,0,0            None       None       None       
+  p3: 1.0      action_plate_well_D1 0,0,0            None       None       None       
+  p4: 1.0      action_plate_well_E1 0,0,0            None       None       None       
+  p5: 1.0      action_plate_well_F1 0,0,0            None       None       None       
+  p6: 1.0      action_plate_well_G1 0,0,0            None       None       None       
+  p7: 1.0      action_plate_well_H1 0,0,0            None       None       None       
+Dropping tips:
+pip#  resource             offset           tip type     max volume (µL)  fitting depth (mm)   tip length (mm)  filter    
+  p0: tips_0_tipspot_A7    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p1: tips_0_tipspot_B7    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p2: tips_0_tipspot_C7    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p3: tips_0_tipspot_D7    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p4: tips_0_tipspot_E7    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p5: tips_0_tipspot_F7    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p6: tips_0_tipspot_G7    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p7: tips_0_tipspot_H7    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+Picking up tips:
+pip#  resource             offset           tip type     max volume (µL)  fitting depth (mm)   tip length (mm)  filter    
+  p0: tips_0_tipspot_A8    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p1: tips_0_tipspot_B8    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p2: tips_0_tipspot_C8    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p3: tips_0_tipspot_D8    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p4: tips_0_tipspot_E8    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p5: tips_0_tipspot_F8    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p6: tips_0_tipspot_G8    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p7: tips_0_tipspot_H8    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+Aspirating:
+pip#  vol(ul)  resource             offset           flow rate  blowout    lld_z       
+  p0: 1.0      dpni                 0,45.9,0         None       None       None       
+  p1: 1.0      dpni                 0,32.8,0         None       None       None       
+  p2: 1.0      dpni                 0,19.7,0         None       None       None       
+  p3: 1.0      dpni                 0,6.6,0          None       None       None       
+  p4: 1.0      dpni                 0,-6.6,0         None       None       None       
+  p5: 1.0      dpni                 0,-19.7,0        None       None       None       
+  p6: 1.0      dpni                 0,-32.8,0        None       None       None       
+  p7: 1.0      dpni                 0,-45.9,0        None       None       None       
+Dispensing:
+pip#  vol(ul)  resource             offset           flow rate  blowout    lld_z       
+  p0: 1.0      action_plate_well_A2 0,0,0            None       None       None       
+  p1: 1.0      action_plate_well_B2 0,0,0            None       None       None       
+  p2: 1.0      action_plate_well_C2 0,0,0            None       None       None       
+  p3: 1.0      action_plate_well_D2 0,0,0            None       None       None       
+  p4: 1.0      action_plate_well_E2 0,0,0            None       None       None       
+  p5: 1.0      action_plate_well_F2 0,0,0            None       None       None       
+  p6: 1.0      action_plate_well_G2 0,0,0            None       None       None       
+  p7: 1.0      action_plate_well_H2 0,0,0            None       None       None       
+Dropping tips:
+pip#  resource             offset           tip type     max volume (µL)  fitting depth (mm)   tip length (mm)  filter    
+  p0: tips_0_tipspot_A8    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p1: tips_0_tipspot_B8    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p2: tips_0_tipspot_C8    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p3: tips_0_tipspot_D8    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p4: tips_0_tipspot_E8    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p5: tips_0_tipspot_F8    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p6: tips_0_tipspot_G8    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p7: tips_0_tipspot_H8    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+Picking up tips:
+pip#  resource             offset           tip type     max volume (µL)  fitting depth (mm)   tip length (mm)  filter    
+  p0: tips_0_tipspot_A9    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p1: tips_0_tipspot_B9    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p2: tips_0_tipspot_C9    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p3: tips_0_tipspot_D9    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p4: tips_0_tipspot_E9    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p5: tips_0_tipspot_F9    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p6: tips_0_tipspot_G9    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p7: tips_0_tipspot_H9    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+Aspirating:
+pip#  vol(ul)  resource             offset           flow rate  blowout    lld_z       
+  p0: 1.0      dpni                 0,45.9,0         None       None       None       
+  p1: 1.0      dpni                 0,32.8,0         None       None       None       
+  p2: 1.0      dpni                 0,19.7,0         None       None       None       
+  p3: 1.0      dpni                 0,6.6,0          None       None       None       
+  p4: 1.0      dpni                 0,-6.6,0         None       None       None       
+  p5: 1.0      dpni                 0,-19.7,0        None       None       None       
+  p6: 1.0      dpni                 0,-32.8,0        None       None       None       
+  p7: 1.0      dpni                 0,-45.9,0        None       None       None       
+Dispensing:
+pip#  vol(ul)  resource             offset           flow rate  blowout    lld_z       
+  p0: 1.0      action_plate_well_A3 0,0,0            None       None       None       
+  p1: 1.0      action_plate_well_B3 0,0,0            None       None       None       
+  p2: 1.0      action_plate_well_C3 0,0,0            None       None       None       
+  p3: 1.0      action_plate_well_D3 0,0,0            None       None       None       
+  p4: 1.0      action_plate_well_E3 0,0,0            None       None       None       
+  p5: 1.0      action_plate_well_F3 0,0,0            None       None       None       
+  p6: 1.0      action_plate_well_G3 0,0,0            None       None       None       
+  p7: 1.0      action_plate_well_H3 0,0,0            None       None       None       
+Dropping tips:
+pip#  resource             offset           tip type     max volume (µL)  fitting depth (mm)   tip length (mm)  filter    
+  p0: tips_0_tipspot_A9    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p1: tips_0_tipspot_B9    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p2: tips_0_tipspot_C9    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p3: tips_0_tipspot_D9    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p4: tips_0_tipspot_E9    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p5: tips_0_tipspot_F9    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p6: tips_0_tipspot_G9    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p7: tips_0_tipspot_H9    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+Setting block temperature(s) to 37.0°C.
+Picking up tips:
+pip#  resource             offset           tip type     max volume (µL)  fitting depth (mm)   tip length (mm)  filter    
+  p0: tips_0_tipspot_A10   0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p1: tips_0_tipspot_B10   0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p2: tips_0_tipspot_C10   0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p3: tips_0_tipspot_D10   0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p4: tips_0_tipspot_E10   0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p5: tips_0_tipspot_F10   0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p6: tips_0_tipspot_G10   0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p7: tips_0_tipspot_H10   0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+Aspirating:
+pip#  vol(ul)  resource             offset           flow rate  blowout    lld_z       
+  p0: 25.0     competent_cells      0,45.9,0         None       None       None       
+  p1: 25.0     competent_cells      0,32.8,0         None       None       None       
+  p2: 25.0     competent_cells      0,19.7,0         None       None       None       
+  p3: 25.0     competent_cells      0,6.6,0          None       None       None       
+  p4: 25.0     competent_cells      0,-6.6,0         None       None       None       
+  p5: 25.0     competent_cells      0,-19.7,0        None       None       None       
+  p6: 25.0     competent_cells      0,-32.8,0        None       None       None       
+  p7: 25.0     competent_cells      0,-45.9,0        None       None       None       
+Dispensing:
+pip#  vol(ul)  resource             offset           flow rate  blowout    lld_z       
+  p0: 25.0     action_plate_well_A1 0,0,0            None       None       None       
+  p1: 25.0     action_plate_well_B1 0,0,0            None       None       None       
+  p2: 25.0     action_plate_well_C1 0,0,0            None       None       None       
+  p3: 25.0     action_plate_well_D1 0,0,0            None       None       None       
+  p4: 25.0     action_plate_well_E1 0,0,0            None       None       None       
+  p5: 25.0     action_plate_well_F1 0,0,0            None       None       None       
+  p6: 25.0     action_plate_well_G1 0,0,0            None       None       None       
+  p7: 25.0     action_plate_well_H1 0,0,0            None       None       None       
+Dropping tips:
+pip#  resource             offset           tip type     max volume (µL)  fitting depth (mm)   tip length (mm)  filter    
+  p0: tips_0_tipspot_A10   0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p1: tips_0_tipspot_B10   0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p2: tips_0_tipspot_C10   0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p3: tips_0_tipspot_D10   0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p4: tips_0_tipspot_E10   0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p5: tips_0_tipspot_F10   0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p6: tips_0_tipspot_G10   0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p7: tips_0_tipspot_H10   0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+Picking up tips:
+pip#  resource             offset           tip type     max volume (µL)  fitting depth (mm)   tip length (mm)  filter    
+  p0: tips_0_tipspot_A11   0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p1: tips_0_tipspot_B11   0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p2: tips_0_tipspot_C11   0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p3: tips_0_tipspot_D11   0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p4: tips_0_tipspot_E11   0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p5: tips_0_tipspot_F11   0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p6: tips_0_tipspot_G11   0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p7: tips_0_tipspot_H11   0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+Aspirating:
+pip#  vol(ul)  resource             offset           flow rate  blowout    lld_z       
+  p0: 25.0     competent_cells      0,45.9,0         None       None       None       
+  p1: 25.0     competent_cells      0,32.8,0         None       None       None       
+  p2: 25.0     competent_cells      0,19.7,0         None       None       None       
+  p3: 25.0     competent_cells      0,6.6,0          None       None       None       
+  p4: 25.0     competent_cells      0,-6.6,0         None       None       None       
+  p5: 25.0     competent_cells      0,-19.7,0        None       None       None       
+  p6: 25.0     competent_cells      0,-32.8,0        None       None       None       
+  p7: 25.0     competent_cells      0,-45.9,0        None       None       None       
+Dispensing:
+pip#  vol(ul)  resource             offset           flow rate  blowout    lld_z       
+  p0: 25.0     action_plate_well_A2 0,0,0            None       None       None       
+  p1: 25.0     action_plate_well_B2 0,0,0            None       None       None       
+  p2: 25.0     action_plate_well_C2 0,0,0            None       None       None       
+  p3: 25.0     action_plate_well_D2 0,0,0            None       None       None       
+  p4: 25.0     action_plate_well_E2 0,0,0            None       None       None       
+  p5: 25.0     action_plate_well_F2 0,0,0            None       None       None       
+  p6: 25.0     action_plate_well_G2 0,0,0            None       None       None       
+  p7: 25.0     action_plate_well_H2 0,0,0            None       None       None       
+Dropping tips:
+pip#  resource             offset           tip type     max volume (µL)  fitting depth (mm)   tip length (mm)  filter    
+  p0: tips_0_tipspot_A11   0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p1: tips_0_tipspot_B11   0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p2: tips_0_tipspot_C11   0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p3: tips_0_tipspot_D11   0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p4: tips_0_tipspot_E11   0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p5: tips_0_tipspot_F11   0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p6: tips_0_tipspot_G11   0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p7: tips_0_tipspot_H11   0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+Picking up tips:
+pip#  resource             offset           tip type     max volume (µL)  fitting depth (mm)   tip length (mm)  filter    
+  p0: tips_0_tipspot_A12   0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p1: tips_0_tipspot_B12   0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p2: tips_0_tipspot_C12   0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p3: tips_0_tipspot_D12   0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p4: tips_0_tipspot_E12   0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p5: tips_0_tipspot_F12   0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p6: tips_0_tipspot_G12   0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p7: tips_0_tipspot_H12   0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+Aspirating:
+pip#  vol(ul)  resource             offset           flow rate  blowout    lld_z       
+  p0: 25.0     competent_cells      0,45.9,0         None       None       None       
+  p1: 25.0     competent_cells      0,32.8,0         None       None       None       
+  p2: 25.0     competent_cells      0,19.7,0         None       None       None       
+  p3: 25.0     competent_cells      0,6.6,0          None       None       None       
+  p4: 25.0     competent_cells      0,-6.6,0         None       None       None       
+  p5: 25.0     competent_cells      0,-19.7,0        None       None       None       
+  p6: 25.0     competent_cells      0,-32.8,0        None       None       None       
+  p7: 25.0     competent_cells      0,-45.9,0        None       None       None       
+Dispensing:
+pip#  vol(ul)  resource             offset           flow rate  blowout    lld_z       
+  p0: 25.0     action_plate_well_A3 0,0,0            None       None       None       
+  p1: 25.0     action_plate_well_B3 0,0,0            None       None       None       
+  p2: 25.0     action_plate_well_C3 0,0,0            None       None       None       
+  p3: 25.0     action_plate_well_D3 0,0,0            None       None       None       
+  p4: 25.0     action_plate_well_E3 0,0,0            None       None       None       
+  p5: 25.0     action_plate_well_F3 0,0,0            None       None       None       
+  p6: 25.0     action_plate_well_G3 0,0,0            None       None       None       
+  p7: 25.0     action_plate_well_H3 0,0,0            None       None       None       
+Dropping tips:
+pip#  resource             offset           tip type     max volume (µL)  fitting depth (mm)   tip length (mm)  filter    
+  p0: tips_0_tipspot_A12   0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p1: tips_0_tipspot_B12   0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p2: tips_0_tipspot_C12   0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p3: tips_0_tipspot_D12   0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p4: tips_0_tipspot_E12   0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p5: tips_0_tipspot_F12   0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p6: tips_0_tipspot_G12   0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p7: tips_0_tipspot_H12   0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+Getting the current temperature.
+Setting the temperature to 42.0.
+Getting the current temperature.
+Getting the current temperature.
+Locking plate
+Shaking at speed 1000.0
+Stopping shaking
+Setting up the liquid handler.
+Setting up shaker
+Picking up tips:
+pip#  resource             offset           tip type     max volume (µL)  fitting depth (mm)   tip length (mm)  filter    
+  p0: tips_0_tipspot_A1    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p1: tips_0_tipspot_B1    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p2: tips_0_tipspot_C1    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p3: tips_0_tipspot_D1    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p4: tips_0_tipspot_E1    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p5: tips_0_tipspot_F1    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p6: tips_0_tipspot_G1    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p7: tips_0_tipspot_H1    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+Aspirating:
+pip#  vol(ul)  resource             offset           flow rate  blowout    lld_z       
+  p0: 180.0    expression_media     0,45.9,0         None       None       None       
+  p1: 180.0    expression_media     0,32.8,0         None       None       None       
+  p2: 180.0    expression_media     0,19.7,0         None       None       None       
+  p3: 180.0    expression_media     0,6.6,0          None       None       None       
+  p4: 180.0    expression_media     0,-6.6,0         None       None       None       
+  p5: 180.0    expression_media     0,-19.7,0        None       None       None       
+  p6: 180.0    expression_media     0,-32.8,0        None       None       None       
+  p7: 180.0    expression_media     0,-45.9,0        None       None       None       
+Dispensing:
+pip#  vol(ul)  resource             offset           flow rate  blowout    lld_z       
+  p0: 180.0    ulture_plate_well_A1 0,0,0            None       None       None       
+  p1: 180.0    ulture_plate_well_B1 0,0,0            None       None       None       
+  p2: 180.0    ulture_plate_well_C1 0,0,0            None       None       None       
+  p3: 180.0    ulture_plate_well_D1 0,0,0            None       None       None       
+  p4: 180.0    ulture_plate_well_E1 0,0,0            None       None       None       
+  p5: 180.0    ulture_plate_well_F1 0,0,0            None       None       None       
+  p6: 180.0    ulture_plate_well_G1 0,0,0            None       None       None       
+  p7: 180.0    ulture_plate_well_H1 0,0,0            None       None       None       
+Dropping tips:
+pip#  resource             offset           tip type     max volume (µL)  fitting depth (mm)   tip length (mm)  filter    
+  p0: tips_0_tipspot_A1    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p1: tips_0_tipspot_B1    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p2: tips_0_tipspot_C1    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p3: tips_0_tipspot_D1    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p4: tips_0_tipspot_E1    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p5: tips_0_tipspot_F1    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p6: tips_0_tipspot_G1    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p7: tips_0_tipspot_H1    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+Picking up tips:
+pip#  resource             offset           tip type     max volume (µL)  fitting depth (mm)   tip length (mm)  filter    
+  p0: tips_0_tipspot_A2    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p1: tips_0_tipspot_B2    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p2: tips_0_tipspot_C2    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p3: tips_0_tipspot_D2    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p4: tips_0_tipspot_E2    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p5: tips_0_tipspot_F2    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p6: tips_0_tipspot_G2    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p7: tips_0_tipspot_H2    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+Aspirating:
+pip#  vol(ul)  resource             offset           flow rate  blowout    lld_z       
+  p0: 180.0    expression_media     0,45.9,0         None       None       None       
+  p1: 180.0    expression_media     0,32.8,0         None       None       None       
+  p2: 180.0    expression_media     0,19.7,0         None       None       None       
+  p3: 180.0    expression_media     0,6.6,0          None       None       None       
+  p4: 180.0    expression_media     0,-6.6,0         None       None       None       
+  p5: 180.0    expression_media     0,-19.7,0        None       None       None       
+  p6: 180.0    expression_media     0,-32.8,0        None       None       None       
+  p7: 180.0    expression_media     0,-45.9,0        None       None       None       
+Dispensing:
+pip#  vol(ul)  resource             offset           flow rate  blowout    lld_z       
+  p0: 180.0    ulture_plate_well_A2 0,0,0            None       None       None       
+  p1: 180.0    ulture_plate_well_B2 0,0,0            None       None       None       
+  p2: 180.0    ulture_plate_well_C2 0,0,0            None       None       None       
+  p3: 180.0    ulture_plate_well_D2 0,0,0            None       None       None       
+  p4: 180.0    ulture_plate_well_E2 0,0,0            None       None       None       
+  p5: 180.0    ulture_plate_well_F2 0,0,0            None       None       None       
+  p6: 180.0    ulture_plate_well_G2 0,0,0            None       None       None       
+  p7: 180.0    ulture_plate_well_H2 0,0,0            None       None       None       
+Dropping tips:
+pip#  resource             offset           tip type     max volume (µL)  fitting depth (mm)   tip length (mm)  filter    
+  p0: tips_0_tipspot_A2    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p1: tips_0_tipspot_B2    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p2: tips_0_tipspot_C2    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p3: tips_0_tipspot_D2    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p4: tips_0_tipspot_E2    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p5: tips_0_tipspot_F2    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p6: tips_0_tipspot_G2    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p7: tips_0_tipspot_H2    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+Picking up tips:
+pip#  resource             offset           tip type     max volume (µL)  fitting depth (mm)   tip length (mm)  filter    
+  p0: tips_0_tipspot_A3    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p1: tips_0_tipspot_B3    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p2: tips_0_tipspot_C3    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p3: tips_0_tipspot_D3    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p4: tips_0_tipspot_E3    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p5: tips_0_tipspot_F3    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p6: tips_0_tipspot_G3    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p7: tips_0_tipspot_H3    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+Aspirating:
+pip#  vol(ul)  resource             offset           flow rate  blowout    lld_z       
+  p0: 180.0    expression_media     0,45.9,0         None       None       None       
+  p1: 180.0    expression_media     0,32.8,0         None       None       None       
+  p2: 180.0    expression_media     0,19.7,0         None       None       None       
+  p3: 180.0    expression_media     0,6.6,0          None       None       None       
+  p4: 180.0    expression_media     0,-6.6,0         None       None       None       
+  p5: 180.0    expression_media     0,-19.7,0        None       None       None       
+  p6: 180.0    expression_media     0,-32.8,0        None       None       None       
+  p7: 180.0    expression_media     0,-45.9,0        None       None       None       
+Dispensing:
+pip#  vol(ul)  resource             offset           flow rate  blowout    lld_z       
+  p0: 180.0    ulture_plate_well_A3 0,0,0            None       None       None       
+  p1: 180.0    ulture_plate_well_B3 0,0,0            None       None       None       
+  p2: 180.0    ulture_plate_well_C3 0,0,0            None       None       None       
+  p3: 180.0    ulture_plate_well_D3 0,0,0            None       None       None       
+  p4: 180.0    ulture_plate_well_E3 0,0,0            None       None       None       
+  p5: 180.0    ulture_plate_well_F3 0,0,0            None       None       None       
+  p6: 180.0    ulture_plate_well_G3 0,0,0            None       None       None       
+  p7: 180.0    ulture_plate_well_H3 0,0,0            None       None       None       
+Dropping tips:
+pip#  resource             offset           tip type     max volume (µL)  fitting depth (mm)   tip length (mm)  filter    
+  p0: tips_0_tipspot_A3    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p1: tips_0_tipspot_B3    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p2: tips_0_tipspot_C3    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p3: tips_0_tipspot_D3    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p4: tips_0_tipspot_E3    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p5: tips_0_tipspot_F3    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p6: tips_0_tipspot_G3    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p7: tips_0_tipspot_H3    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+Picking up tips:
+pip#  resource             offset           tip type     max volume (µL)  fitting depth (mm)   tip length (mm)  filter    
+  p0: tips_0_tipspot_A4    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p1: tips_0_tipspot_B4    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p2: tips_0_tipspot_C4    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p3: tips_0_tipspot_D4    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p4: tips_0_tipspot_E4    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p5: tips_0_tipspot_F4    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p6: tips_0_tipspot_G4    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p7: tips_0_tipspot_H4    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+Aspirating:
+pip#  vol(ul)  resource             offset           flow rate  blowout    lld_z       
+  p0: 5.0      ormed_source_well_A1 0,0,0            None       None       None       
+  p1: 5.0      ormed_source_well_B1 0,0,0            None       None       None       
+  p2: 5.0      ormed_source_well_C1 0,0,0            None       None       None       
+  p3: 5.0      ormed_source_well_D1 0,0,0            None       None       None       
+  p4: 5.0      ormed_source_well_E1 0,0,0            None       None       None       
+  p5: 5.0      ormed_source_well_F1 0,0,0            None       None       None       
+  p6: 5.0      ormed_source_well_G1 0,0,0            None       None       None       
+  p7: 5.0      ormed_source_well_H1 0,0,0            None       None       None       
+Dispensing:
+pip#  vol(ul)  resource             offset           flow rate  blowout    lld_z       
+  p0: 5.0      ulture_plate_well_A1 0,0,0            None       None       None       
+  p1: 5.0      ulture_plate_well_B1 0,0,0            None       None       None       
+  p2: 5.0      ulture_plate_well_C1 0,0,0            None       None       None       
+  p3: 5.0      ulture_plate_well_D1 0,0,0            None       None       None       
+  p4: 5.0      ulture_plate_well_E1 0,0,0            None       None       None       
+  p5: 5.0      ulture_plate_well_F1 0,0,0            None       None       None       
+  p6: 5.0      ulture_plate_well_G1 0,0,0            None       None       None       
+  p7: 5.0      ulture_plate_well_H1 0,0,0            None       None       None       
+Aspirating:
+pip#  vol(ul)  resource             offset           flow rate  blowout    lld_z       
+  p0: 5.0      ulture_plate_well_A1 0,0,0            None       None       None       
+  p1: 5.0      ulture_plate_well_B1 0,0,0            None       None       None       
+  p2: 5.0      ulture_plate_well_C1 0,0,0            None       None       None       
+  p3: 5.0      ulture_plate_well_D1 0,0,0            None       None       None       
+  p4: 5.0      ulture_plate_well_E1 0,0,0            None       None       None       
+  p5: 5.0      ulture_plate_well_F1 0,0,0            None       None       None       
+  p6: 5.0      ulture_plate_well_G1 0,0,0            None       None       None       
+  p7: 5.0      ulture_plate_well_H1 0,0,0            None       None       None       
+Dispensing:
+pip#  vol(ul)  resource             offset           flow rate  blowout    lld_z       
+  p0: 5.0      ulture_plate_well_A1 0,0,0            None       None       None       
+  p1: 5.0      ulture_plate_well_B1 0,0,0            None       None       None       
+  p2: 5.0      ulture_plate_well_C1 0,0,0            None       None       None       
+  p3: 5.0      ulture_plate_well_D1 0,0,0            None       None       None       
+  p4: 5.0      ulture_plate_well_E1 0,0,0            None       None       None       
+  p5: 5.0      ulture_plate_well_F1 0,0,0            None       None       None       
+  p6: 5.0      ulture_plate_well_G1 0,0,0            None       None       None       
+  p7: 5.0      ulture_plate_well_H1 0,0,0            None       None       None       
+Dropping tips:
+pip#  resource             offset           tip type     max volume (µL)  fitting depth (mm)   tip length (mm)  filter    
+  p0: tips_0_tipspot_A4    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p1: tips_0_tipspot_B4    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p2: tips_0_tipspot_C4    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p3: tips_0_tipspot_D4    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p4: tips_0_tipspot_E4    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p5: tips_0_tipspot_F4    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p6: tips_0_tipspot_G4    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p7: tips_0_tipspot_H4    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+Picking up tips:
+pip#  resource             offset           tip type     max volume (µL)  fitting depth (mm)   tip length (mm)  filter    
+  p0: tips_0_tipspot_A5    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p1: tips_0_tipspot_B5    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p2: tips_0_tipspot_C5    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p3: tips_0_tipspot_D5    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p4: tips_0_tipspot_E5    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p5: tips_0_tipspot_F5    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p6: tips_0_tipspot_G5    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p7: tips_0_tipspot_H5    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+Aspirating:
+pip#  vol(ul)  resource             offset           flow rate  blowout    lld_z       
+  p0: 5.0      ormed_source_well_A2 0,0,0            None       None       None       
+  p1: 5.0      ormed_source_well_B2 0,0,0            None       None       None       
+  p2: 5.0      ormed_source_well_C2 0,0,0            None       None       None       
+  p3: 5.0      ormed_source_well_D2 0,0,0            None       None       None       
+  p4: 5.0      ormed_source_well_E2 0,0,0            None       None       None       
+  p5: 5.0      ormed_source_well_F2 0,0,0            None       None       None       
+  p6: 5.0      ormed_source_well_G2 0,0,0            None       None       None       
+  p7: 5.0      ormed_source_well_H2 0,0,0            None       None       None       
+Dispensing:
+pip#  vol(ul)  resource             offset           flow rate  blowout    lld_z       
+  p0: 5.0      ulture_plate_well_A2 0,0,0            None       None       None       
+  p1: 5.0      ulture_plate_well_B2 0,0,0            None       None       None       
+  p2: 5.0      ulture_plate_well_C2 0,0,0            None       None       None       
+  p3: 5.0      ulture_plate_well_D2 0,0,0            None       None       None       
+  p4: 5.0      ulture_plate_well_E2 0,0,0            None       None       None       
+  p5: 5.0      ulture_plate_well_F2 0,0,0            None       None       None       
+  p6: 5.0      ulture_plate_well_G2 0,0,0            None       None       None       
+  p7: 5.0      ulture_plate_well_H2 0,0,0            None       None       None       
+Aspirating:
+pip#  vol(ul)  resource             offset           flow rate  blowout    lld_z       
+  p0: 5.0      ulture_plate_well_A2 0,0,0            None       None       None       
+  p1: 5.0      ulture_plate_well_B2 0,0,0            None       None       None       
+  p2: 5.0      ulture_plate_well_C2 0,0,0            None       None       None       
+  p3: 5.0      ulture_plate_well_D2 0,0,0            None       None       None       
+  p4: 5.0      ulture_plate_well_E2 0,0,0            None       None       None       
+  p5: 5.0      ulture_plate_well_F2 0,0,0            None       None       None       
+  p6: 5.0      ulture_plate_well_G2 0,0,0            None       None       None       
+  p7: 5.0      ulture_plate_well_H2 0,0,0            None       None       None       
+Dispensing:
+pip#  vol(ul)  resource             offset           flow rate  blowout    lld_z       
+  p0: 5.0      ulture_plate_well_A2 0,0,0            None       None       None       
+  p1: 5.0      ulture_plate_well_B2 0,0,0            None       None       None       
+  p2: 5.0      ulture_plate_well_C2 0,0,0            None       None       None       
+  p3: 5.0      ulture_plate_well_D2 0,0,0            None       None       None       
+  p4: 5.0      ulture_plate_well_E2 0,0,0            None       None       None       
+  p5: 5.0      ulture_plate_well_F2 0,0,0            None       None       None       
+  p6: 5.0      ulture_plate_well_G2 0,0,0            None       None       None       
+  p7: 5.0      ulture_plate_well_H2 0,0,0            None       None       None       
+Dropping tips:
+pip#  resource             offset           tip type     max volume (µL)  fitting depth (mm)   tip length (mm)  filter    
+  p0: tips_0_tipspot_A5    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p1: tips_0_tipspot_B5    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p2: tips_0_tipspot_C5    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p3: tips_0_tipspot_D5    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p4: tips_0_tipspot_E5    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p5: tips_0_tipspot_F5    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p6: tips_0_tipspot_G5    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p7: tips_0_tipspot_H5    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+Picking up tips:
+pip#  resource             offset           tip type     max volume (µL)  fitting depth (mm)   tip length (mm)  filter    
+  p0: tips_0_tipspot_A6    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p1: tips_0_tipspot_B6    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p2: tips_0_tipspot_C6    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p3: tips_0_tipspot_D6    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p4: tips_0_tipspot_E6    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p5: tips_0_tipspot_F6    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p6: tips_0_tipspot_G6    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p7: tips_0_tipspot_H6    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+Aspirating:
+pip#  vol(ul)  resource             offset           flow rate  blowout    lld_z       
+  p0: 5.0      ormed_source_well_A3 0,0,0            None       None       None       
+  p1: 5.0      ormed_source_well_B3 0,0,0            None       None       None       
+  p2: 5.0      ormed_source_well_C3 0,0,0            None       None       None       
+  p3: 5.0      ormed_source_well_D3 0,0,0            None       None       None       
+  p4: 5.0      ormed_source_well_E3 0,0,0            None       None       None       
+  p5: 5.0      ormed_source_well_F3 0,0,0            None       None       None       
+  p6: 5.0      ormed_source_well_G3 0,0,0            None       None       None       
+  p7: 5.0      ormed_source_well_H3 0,0,0            None       None       None       
+Dispensing:
+pip#  vol(ul)  resource             offset           flow rate  blowout    lld_z       
+  p0: 5.0      ulture_plate_well_A3 0,0,0            None       None       None       
+  p1: 5.0      ulture_plate_well_B3 0,0,0            None       None       None       
+  p2: 5.0      ulture_plate_well_C3 0,0,0            None       None       None       
+  p3: 5.0      ulture_plate_well_D3 0,0,0            None       None       None       
+  p4: 5.0      ulture_plate_well_E3 0,0,0            None       None       None       
+  p5: 5.0      ulture_plate_well_F3 0,0,0            None       None       None       
+  p6: 5.0      ulture_plate_well_G3 0,0,0            None       None       None       
+  p7: 5.0      ulture_plate_well_H3 0,0,0            None       None       None       
+Aspirating:
+pip#  vol(ul)  resource             offset           flow rate  blowout    lld_z       
+  p0: 5.0      ulture_plate_well_A3 0,0,0            None       None       None       
+  p1: 5.0      ulture_plate_well_B3 0,0,0            None       None       None       
+  p2: 5.0      ulture_plate_well_C3 0,0,0            None       None       None       
+  p3: 5.0      ulture_plate_well_D3 0,0,0            None       None       None       
+  p4: 5.0      ulture_plate_well_E3 0,0,0            None       None       None       
+  p5: 5.0      ulture_plate_well_F3 0,0,0            None       None       None       
+  p6: 5.0      ulture_plate_well_G3 0,0,0            None       None       None       
+  p7: 5.0      ulture_plate_well_H3 0,0,0            None       None       None       
+Dispensing:
+pip#  vol(ul)  resource             offset           flow rate  blowout    lld_z       
+  p0: 5.0      ulture_plate_well_A3 0,0,0            None       None       None       
+  p1: 5.0      ulture_plate_well_B3 0,0,0            None       None       None       
+  p2: 5.0      ulture_plate_well_C3 0,0,0            None       None       None       
+  p3: 5.0      ulture_plate_well_D3 0,0,0            None       None       None       
+  p4: 5.0      ulture_plate_well_E3 0,0,0            None       None       None       
+  p5: 5.0      ulture_plate_well_F3 0,0,0            None       None       None       
+  p6: 5.0      ulture_plate_well_G3 0,0,0            None       None       None       
+  p7: 5.0      ulture_plate_well_H3 0,0,0            None       None       None       
+Dropping tips:
+pip#  resource             offset           tip type     max volume (µL)  fitting depth (mm)   tip length (mm)  filter    
+  p0: tips_0_tipspot_A6    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p1: tips_0_tipspot_B6    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p2: tips_0_tipspot_C6    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p3: tips_0_tipspot_D6    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p4: tips_0_tipspot_E6    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p5: tips_0_tipspot_F6    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p6: tips_0_tipspot_G6    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p7: tips_0_tipspot_H6    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+Picking up tips:
+pip#  resource             offset           tip type     max volume (µL)  fitting depth (mm)   tip length (mm)  filter    
+  p0: tips_0_tipspot_A7    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p1: tips_0_tipspot_B7    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p2: tips_0_tipspot_C7    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p3: tips_0_tipspot_D7    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p4: tips_0_tipspot_E7    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p5: tips_0_tipspot_F7    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p6: tips_0_tipspot_G7    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p7: tips_0_tipspot_H7    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+Aspirating:
+pip#  vol(ul)  resource             offset           flow rate  blowout    lld_z       
+  p0: 2.0      inducer              0,45.9,0         None       None       None       
+  p1: 2.0      inducer              0,32.8,0         None       None       None       
+  p2: 2.0      inducer              0,19.7,0         None       None       None       
+  p3: 2.0      inducer              0,6.6,0          None       None       None       
+  p4: 2.0      inducer              0,-6.6,0         None       None       None       
+  p5: 2.0      inducer              0,-19.7,0        None       None       None       
+  p6: 2.0      inducer              0,-32.8,0        None       None       None       
+  p7: 2.0      inducer              0,-45.9,0        None       None       None       
+Dispensing:
+pip#  vol(ul)  resource             offset           flow rate  blowout    lld_z       
+  p0: 2.0      ulture_plate_well_A1 0,0,0            None       None       None       
+  p1: 2.0      ulture_plate_well_B1 0,0,0            None       None       None       
+  p2: 2.0      ulture_plate_well_C1 0,0,0            None       None       None       
+  p3: 2.0      ulture_plate_well_D1 0,0,0            None       None       None       
+  p4: 2.0      ulture_plate_well_E1 0,0,0            None       None       None       
+  p5: 2.0      ulture_plate_well_F1 0,0,0            None       None       None       
+  p6: 2.0      ulture_plate_well_G1 0,0,0            None       None       None       
+  p7: 2.0      ulture_plate_well_H1 0,0,0            None       None       None       
+Dropping tips:
+pip#  resource             offset           tip type     max volume (µL)  fitting depth (mm)   tip length (mm)  filter    
+  p0: tips_0_tipspot_A7    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p1: tips_0_tipspot_B7    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p2: tips_0_tipspot_C7    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p3: tips_0_tipspot_D7    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p4: tips_0_tipspot_E7    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p5: tips_0_tipspot_F7    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p6: tips_0_tipspot_G7    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p7: tips_0_tipspot_H7    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+Picking up tips:
+pip#  resource             offset           tip type     max volume (µL)  fitting depth (mm)   tip length (mm)  filter    
+  p0: tips_0_tipspot_A8    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p1: tips_0_tipspot_B8    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p2: tips_0_tipspot_C8    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p3: tips_0_tipspot_D8    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p4: tips_0_tipspot_E8    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p5: tips_0_tipspot_F8    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p6: tips_0_tipspot_G8    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p7: tips_0_tipspot_H8    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+Aspirating:
+pip#  vol(ul)  resource             offset           flow rate  blowout    lld_z       
+  p0: 2.0      inducer              0,45.9,0         None       None       None       
+  p1: 2.0      inducer              0,32.8,0         None       None       None       
+  p2: 2.0      inducer              0,19.7,0         None       None       None       
+  p3: 2.0      inducer              0,6.6,0          None       None       None       
+  p4: 2.0      inducer              0,-6.6,0         None       None       None       
+  p5: 2.0      inducer              0,-19.7,0        None       None       None       
+  p6: 2.0      inducer              0,-32.8,0        None       None       None       
+  p7: 2.0      inducer              0,-45.9,0        None       None       None       
+Dispensing:
+pip#  vol(ul)  resource             offset           flow rate  blowout    lld_z       
+  p0: 2.0      ulture_plate_well_A2 0,0,0            None       None       None       
+  p1: 2.0      ulture_plate_well_B2 0,0,0            None       None       None       
+  p2: 2.0      ulture_plate_well_C2 0,0,0            None       None       None       
+  p3: 2.0      ulture_plate_well_D2 0,0,0            None       None       None       
+  p4: 2.0      ulture_plate_well_E2 0,0,0            None       None       None       
+  p5: 2.0      ulture_plate_well_F2 0,0,0            None       None       None       
+  p6: 2.0      ulture_plate_well_G2 0,0,0            None       None       None       
+  p7: 2.0      ulture_plate_well_H2 0,0,0            None       None       None       
+Dropping tips:
+pip#  resource             offset           tip type     max volume (µL)  fitting depth (mm)   tip length (mm)  filter    
+  p0: tips_0_tipspot_A8    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p1: tips_0_tipspot_B8    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p2: tips_0_tipspot_C8    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p3: tips_0_tipspot_D8    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p4: tips_0_tipspot_E8    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p5: tips_0_tipspot_F8    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p6: tips_0_tipspot_G8    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p7: tips_0_tipspot_H8    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+Picking up tips:
+pip#  resource             offset           tip type     max volume (µL)  fitting depth (mm)   tip length (mm)  filter    
+  p0: tips_0_tipspot_A9    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p1: tips_0_tipspot_B9    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p2: tips_0_tipspot_C9    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p3: tips_0_tipspot_D9    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p4: tips_0_tipspot_E9    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p5: tips_0_tipspot_F9    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p6: tips_0_tipspot_G9    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p7: tips_0_tipspot_H9    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+Aspirating:
+pip#  vol(ul)  resource             offset           flow rate  blowout    lld_z       
+  p0: 2.0      inducer              0,45.9,0         None       None       None       
+  p1: 2.0      inducer              0,32.8,0         None       None       None       
+  p2: 2.0      inducer              0,19.7,0         None       None       None       
+  p3: 2.0      inducer              0,6.6,0          None       None       None       
+  p4: 2.0      inducer              0,-6.6,0         None       None       None       
+  p5: 2.0      inducer              0,-19.7,0        None       None       None       
+  p6: 2.0      inducer              0,-32.8,0        None       None       None       
+  p7: 2.0      inducer              0,-45.9,0        None       None       None       
+Dispensing:
+pip#  vol(ul)  resource             offset           flow rate  blowout    lld_z       
+  p0: 2.0      ulture_plate_well_A3 0,0,0            None       None       None       
+  p1: 2.0      ulture_plate_well_B3 0,0,0            None       None       None       
+  p2: 2.0      ulture_plate_well_C3 0,0,0            None       None       None       
+  p3: 2.0      ulture_plate_well_D3 0,0,0            None       None       None       
+  p4: 2.0      ulture_plate_well_E3 0,0,0            None       None       None       
+  p5: 2.0      ulture_plate_well_F3 0,0,0            None       None       None       
+  p6: 2.0      ulture_plate_well_G3 0,0,0            None       None       None       
+  p7: 2.0      ulture_plate_well_H3 0,0,0            None       None       None       
+Dropping tips:
+pip#  resource             offset           tip type     max volume (µL)  fitting depth (mm)   tip length (mm)  filter    
+  p0: tips_0_tipspot_A9    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p1: tips_0_tipspot_B9    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p2: tips_0_tipspot_C9    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p3: tips_0_tipspot_D9    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p4: tips_0_tipspot_E9    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p5: tips_0_tipspot_F9    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p6: tips_0_tipspot_G9    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p7: tips_0_tipspot_H9    0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+Getting the current temperature.
+Setting the temperature to 30.0.
+Locking plate
+Shaking at speed 1000.0
+Stopping shaking
+Picking up tips:
+pip#  resource             offset           tip type     max volume (µL)  fitting depth (mm)   tip length (mm)  filter    
+  p0: tips_0_tipspot_A10   0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p1: tips_0_tipspot_B10   0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p2: tips_0_tipspot_C10   0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p3: tips_0_tipspot_D10   0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p4: tips_0_tipspot_E10   0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p5: tips_0_tipspot_F10   0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p6: tips_0_tipspot_G10   0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p7: tips_0_tipspot_H10   0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+Aspirating:
+pip#  vol(ul)  resource             offset           flow rate  blowout    lld_z       
+  p0: 100.0    ulture_plate_well_A1 0,0,0            None       None       None       
+  p1: 100.0    ulture_plate_well_B1 0,0,0            None       None       None       
+  p2: 100.0    ulture_plate_well_C1 0,0,0            None       None       None       
+  p3: 100.0    ulture_plate_well_D1 0,0,0            None       None       None       
+  p4: 100.0    ulture_plate_well_E1 0,0,0            None       None       None       
+  p5: 100.0    ulture_plate_well_F1 0,0,0            None       None       None       
+  p6: 100.0    ulture_plate_well_G1 0,0,0            None       None       None       
+  p7: 100.0    ulture_plate_well_H1 0,0,0            None       None       None       
+Dispensing:
+pip#  vol(ul)  resource             offset           flow rate  blowout    lld_z       
+  p0: 100.0    read_plate_well_A1   0,0,0            None       None       None       
+  p1: 100.0    read_plate_well_B1   0,0,0            None       None       None       
+  p2: 100.0    read_plate_well_C1   0,0,0            None       None       None       
+  p3: 100.0    read_plate_well_D1   0,0,0            None       None       None       
+  p4: 100.0    read_plate_well_E1   0,0,0            None       None       None       
+  p5: 100.0    read_plate_well_F1   0,0,0            None       None       None       
+  p6: 100.0    read_plate_well_G1   0,0,0            None       None       None       
+  p7: 100.0    read_plate_well_H1   0,0,0            None       None       None       
+Dropping tips:
+pip#  resource             offset           tip type     max volume (µL)  fitting depth (mm)   tip length (mm)  filter    
+  p0: tips_0_tipspot_A10   0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p1: tips_0_tipspot_B10   0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p2: tips_0_tipspot_C10   0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p3: tips_0_tipspot_D10   0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p4: tips_0_tipspot_E10   0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p5: tips_0_tipspot_F10   0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p6: tips_0_tipspot_G10   0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p7: tips_0_tipspot_H10   0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+Picking up tips:
+pip#  resource             offset           tip type     max volume (µL)  fitting depth (mm)   tip length (mm)  filter    
+  p0: tips_0_tipspot_A11   0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p1: tips_0_tipspot_B11   0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p2: tips_0_tipspot_C11   0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p3: tips_0_tipspot_D11   0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p4: tips_0_tipspot_E11   0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p5: tips_0_tipspot_F11   0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p6: tips_0_tipspot_G11   0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p7: tips_0_tipspot_H11   0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+Aspirating:
+pip#  vol(ul)  resource             offset           flow rate  blowout    lld_z       
+  p0: 100.0    ulture_plate_well_A2 0,0,0            None       None       None       
+  p1: 100.0    ulture_plate_well_B2 0,0,0            None       None       None       
+  p2: 100.0    ulture_plate_well_C2 0,0,0            None       None       None       
+  p3: 100.0    ulture_plate_well_D2 0,0,0            None       None       None       
+  p4: 100.0    ulture_plate_well_E2 0,0,0            None       None       None       
+  p5: 100.0    ulture_plate_well_F2 0,0,0            None       None       None       
+  p6: 100.0    ulture_plate_well_G2 0,0,0            None       None       None       
+  p7: 100.0    ulture_plate_well_H2 0,0,0            None       None       None       
+Dispensing:
+pip#  vol(ul)  resource             offset           flow rate  blowout    lld_z       
+  p0: 100.0    read_plate_well_A2   0,0,0            None       None       None       
+  p1: 100.0    read_plate_well_B2   0,0,0            None       None       None       
+  p2: 100.0    read_plate_well_C2   0,0,0            None       None       None       
+  p3: 100.0    read_plate_well_D2   0,0,0            None       None       None       
+  p4: 100.0    read_plate_well_E2   0,0,0            None       None       None       
+  p5: 100.0    read_plate_well_F2   0,0,0            None       None       None       
+  p6: 100.0    read_plate_well_G2   0,0,0            None       None       None       
+  p7: 100.0    read_plate_well_H2   0,0,0            None       None       None       
+Dropping tips:
+pip#  resource             offset           tip type     max volume (µL)  fitting depth (mm)   tip length (mm)  filter    
+  p0: tips_0_tipspot_A11   0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p1: tips_0_tipspot_B11   0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p2: tips_0_tipspot_C11   0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p3: tips_0_tipspot_D11   0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p4: tips_0_tipspot_E11   0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p5: tips_0_tipspot_F11   0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p6: tips_0_tipspot_G11   0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p7: tips_0_tipspot_H11   0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+Picking up tips:
+pip#  resource             offset           tip type     max volume (µL)  fitting depth (mm)   tip length (mm)  filter    
+  p0: tips_0_tipspot_A12   0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p1: tips_0_tipspot_B12   0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p2: tips_0_tipspot_C12   0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p3: tips_0_tipspot_D12   0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p4: tips_0_tipspot_E12   0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p5: tips_0_tipspot_F12   0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p6: tips_0_tipspot_G12   0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p7: tips_0_tipspot_H12   0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+Aspirating:
+pip#  vol(ul)  resource             offset           flow rate  blowout    lld_z       
+  p0: 100.0    ulture_plate_well_A3 0,0,0            None       None       None       
+  p1: 100.0    ulture_plate_well_B3 0,0,0            None       None       None       
+  p2: 100.0    ulture_plate_well_C3 0,0,0            None       None       None       
+  p3: 100.0    ulture_plate_well_D3 0,0,0            None       None       None       
+  p4: 100.0    ulture_plate_well_E3 0,0,0            None       None       None       
+  p5: 100.0    ulture_plate_well_F3 0,0,0            None       None       None       
+  p6: 100.0    ulture_plate_well_G3 0,0,0            None       None       None       
+  p7: 100.0    ulture_plate_well_H3 0,0,0            None       None       None       
+Dispensing:
+pip#  vol(ul)  resource             offset           flow rate  blowout    lld_z       
+  p0: 100.0    read_plate_well_A3   0,0,0            None       None       None       
+  p1: 100.0    read_plate_well_B3   0,0,0            None       None       None       
+  p2: 100.0    read_plate_well_C3   0,0,0            None       None       None       
+  p3: 100.0    read_plate_well_D3   0,0,0            None       None       None       
+  p4: 100.0    read_plate_well_E3   0,0,0            None       None       None       
+  p5: 100.0    read_plate_well_F3   0,0,0            None       None       None       
+  p6: 100.0    read_plate_well_G3   0,0,0            None       None       None       
+  p7: 100.0    read_plate_well_H3   0,0,0            None       None       None       
+Dropping tips:
+pip#  resource             offset           tip type     max volume (µL)  fitting depth (mm)   tip length (mm)  filter    
+  p0: tips_0_tipspot_A12   0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p1: tips_0_tipspot_B12   0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p2: tips_0_tipspot_C12   0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p3: tips_0_tipspot_D12   0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p4: tips_0_tipspot_E12   0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p5: tips_0_tipspot_F12   0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p6: tips_0_tipspot_G12   0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+  p7: tips_0_tipspot_H12   0,0,0            HamiltonTip  1065             8                    95.1             Yes       
+Setting up the plate reader.
+Opening the plate reader.
+Closing the plate reader with plate, None.

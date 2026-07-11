@@ -1,0 +1,79 @@
+{
+  "designer": "esm2",
+  "rounds": 8,
+  "batch_size": 24,
+  "best_brightness_fold_over_wt": 1.96,
+  "incumbent_mutations": [
+    "N105L",
+    "I152F",
+    "V163A"
+  ],
+  "incumbent_true_brighteners": [
+    "I152F",
+    "V163A"
+  ],
+  "n_promoted_variants": 7,
+  "top10_precision_are_true_brighteners": 0.67,
+  "canonical_brighteners_recovered": [
+    "V163A"
+  ],
+  "n_ground_truth_brighteners": 55,
+  "per_round": [
+    {
+      "round": 0,
+      "best_rfu": 1.3134005222584701,
+      "cum_best_rfu": 1.3134005222584701,
+      "mean_rfu": 0.8777819945547137,
+      "n_accept": 0
+    },
+    {
+      "round": 1,
+      "best_rfu": 1.3970994308951743,
+      "cum_best_rfu": 1.3970994308951743,
+      "mean_rfu": 0.9692234626500311,
+      "n_accept": 0
+    },
+    {
+      "round": 2,
+      "best_rfu": 1.5558263824772405,
+      "cum_best_rfu": 1.5558263824772405,
+      "mean_rfu": 0.9205353597690685,
+      "n_accept": 1
+    },
+    {
+      "round": 3,
+      "best_rfu": 1.4879289071669475,
+      "cum_best_rfu": 1.5558263824772405,
+      "mean_rfu": 0.9645270835769764,
+      "n_accept": 0
+    },
+    {
+      "round": 4,
+      "best_rfu": 1.8938237699724596,
+      "cum_best_rfu": 1.8938237699724596,
+      "mean_rfu": 1.0426874786553948,
+      "n_accept": 4
+    },
+    {
+      "round": 5,
+      "best_rfu": 1.9552706873420194,
+      "cum_best_rfu": 1.9552706873420194,
+      "mean_rfu": 0.9869212760838549,
+      "n_accept": 2
+    },
+    {
+      "round": 6,
+      "best_rfu": 1.8907535122209416,
+      "cum_best_rfu": 1.9552706873420194,
+      "mean_rfu": 1.083837631371192,
+      "n_accept": 5
+    },
+    {
+      "round": 7,
+      "best_rfu": 1.6178036280238977,
+      "cum_best_rfu": 1.9552706873420194,
+      "mean_rfu": 0.9743693636493864,
+      "n_accept": 2
+    }
+  ]
+}
