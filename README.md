@@ -1,4 +1,4 @@
-# ml-bio-eval
+# ml-design-loops
 
 Machine learning for laboratory biology, built evaluation-first. Three closed-loop
 systems that each decide what to do next and score the result against ground truth
