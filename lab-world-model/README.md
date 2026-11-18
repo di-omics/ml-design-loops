@@ -69,6 +69,26 @@ Figures:
 - `03_pareto.png` protocols explored; the agent concentrates on the release corner.
 - `04_conformal_qc.png` calibration, triage rates, and where errors concentrate.
 
+## Does it hold over more seeds? (100-seed check)
+
+Twelve seeds is a small sample. `seed_study.py` runs the same optimizer and the same
+random search, with the same budget, over 100 seeds and writes `seed_study.json`.
+
+| metric | closed-loop agent | random search |
+| --- | --- | --- |
+| mean Pareto hypervolume after 36 runs | 0.854 | 0.741 |
+| seeds that never found a passing protocol in budget | 3 / 100 | 20 / 100 |
+| median experiments to first release-grade protocol | 15 | 16 |
+
+Two results hold. The agent ends with about 15% more hypervolume (95% interval 14 to
+17) and is ahead on all 100 seeds, and it misses the release bar within budget far
+less often.
+
+One does not. The gap in the median is about 6% with a 95% interval of -10% to +33%,
+which spans zero: the agent gets there first on 60 seeds, ties on 7, and is slower on
+33. The 19% in the 12-seed table is one draw of a noisy statistic. Read it as an
+example, not as the effect size.
+
 ## Architecture
 
 ```
@@ -78,6 +98,7 @@ labworld/
   optimize.py      ParEGO multi-objective BO + random baseline + hypervolume
   qc_gate.py       split-conformal accept / reject / escalate gate
 run_demo.py        runs the loop over seeds, exercises the gate, writes figures
+seed_study.py      the same agent-vs-random comparison over 100 seeds
 ```
 
 The simulator's response surfaces are physically motivated (log-scaled input mass,

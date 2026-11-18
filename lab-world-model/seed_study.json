@@ -1,0 +1,24 @@
+{
+  "seeds": 100,
+  "budget": 36,
+  "hypervolume_mean_agent": 0.8543,
+  "hypervolume_mean_random": 0.7405,
+  "hypervolume_gain_pct": 15.4,
+  "hypervolume_gain_pct_95": [
+    14.0,
+    16.8
+  ],
+  "seeds_agent_higher_hypervolume": 100,
+  "never_passed_agent": 3,
+  "never_passed_random": 20,
+  "median_first_pass_agent": 15.0,
+  "median_first_pass_random": 16.0,
+  "fewer_experiments_pct": 6.2,
+  "fewer_experiments_pct_95": [
+    -10.0,
+    33.3
+  ],
+  "seeds_agent_faster": 60,
+  "seeds_tied": 7,
+  "seeds_random_faster": 33
+}
