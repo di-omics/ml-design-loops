@@ -33,8 +33,9 @@ def normalize_X(X: np.ndarray) -> np.ndarray:
 class WorldModel:
     """One GP per objective, sharing a common input normalization."""
 
-    def __init__(self, objectives: tuple[str, ...] = OBJECTIVES):
+    def __init__(self, objectives: tuple[str, ...] = OBJECTIVES, seed: int = 0):
         self.objectives = objectives
+        self.seed = seed
         self.gps: dict[str, GaussianProcessRegressor] = {}
 
     def _new_gp(self) -> GaussianProcessRegressor:
@@ -48,6 +49,7 @@ class WorldModel:
             normalize_y=True,
             n_restarts_optimizer=2,
             alpha=1e-8,
+            random_state=self.seed,  # seeded restarts, so the gate repeats
         )
 
     def fit(self, X: np.ndarray, Y: dict[str, np.ndarray]) -> "WorldModel":

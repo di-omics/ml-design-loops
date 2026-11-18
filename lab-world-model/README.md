@@ -49,8 +49,10 @@ ML is load-bearing at wet-lab data volumes:
 | metric | closed-loop agent | random search |
 | --- | --- | --- |
 | Pareto hypervolume after 36 runs | 0.86 | 0.75 (+14%) |
-| median experiments to first release-grade protocol | 11 | 16 (~29% fewer) |
-| seeds that never found a passing protocol in budget | 0 / 12 | 2 / 12 |
+| median experiments to first release-grade protocol | 12.5 | 15.5 (~19% fewer) |
+| seeds that never found a passing protocol in budget | 1 / 12 | 2 / 12 |
+
+The run is seeded end to end, so `run_demo.py` prints these numbers every time.
 
 Conformal QC gate (90% target coverage, trained on ~120 runs):
 

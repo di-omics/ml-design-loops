@@ -60,14 +60,17 @@ def _tchebycheff(Yu: np.ndarray, w: np.ndarray, rho: float = 0.05) -> np.ndarray
     return wg.min(axis=1) + rho * wg.sum(axis=1)
 
 
-def _fit_scalar_gp(Xn: np.ndarray, s: np.ndarray) -> GaussianProcessRegressor:
+def _fit_scalar_gp(Xn: np.ndarray, s: np.ndarray, seed: int) -> GaussianProcessRegressor:
     kernel = (
         ConstantKernel(1.0, (1e-2, 1e3))
         * Matern(length_scale=np.ones(len(assay.PARAM_NAMES)), nu=2.5)
         + WhiteKernel(0.05, (1e-4, 1.0))
     )
+    # random_state seeds the optimizer restart. Without it the restart draws
+    # from numpy's global state and every run of the demo gives new numbers.
     gp = GaussianProcessRegressor(kernel=kernel, normalize_y=True,
-                                  n_restarts_optimizer=1, alpha=1e-8)
+                                  n_restarts_optimizer=1, alpha=1e-8,
+                                  random_state=seed)
     with warnings.catch_warnings():
         warnings.simplefilter("ignore")
         gp.fit(Xn, s)
@@ -117,12 +120,12 @@ def parego(n_iter: int, seed: int, n_init: int = 6, n_cand: int = 1500) -> RunRe
     X = assay.sample_design(n_init, rng)
     Y = assay.run_assay(X, rng)
 
-    for _ in range(n_iter):
+    for it in range(n_iter):
         Yu = objectives_to_unit(Y)
         w = rng.dirichlet(np.ones(len(assay.OBJECTIVES)))
         s = _tchebycheff(Yu, w)
         Xn = normalize_X(X)
-        gp = _fit_scalar_gp(Xn, s)
+        gp = _fit_scalar_gp(Xn, s, seed=seed * 1000 + it)
 
         # Candidate pool: random draws plus local perturbations of the incumbent.
         cand = assay.sample_design(n_cand, rng)

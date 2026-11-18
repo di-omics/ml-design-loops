@@ -18,9 +18,9 @@ Each folder is self-contained and has its own README and requirements.
 A closed-loop assay optimizer: a Gaussian-process world model of a low-input
 library-prep assay, multi-objective Bayesian optimization (ParEGO), and a
 split-conformal accept / reject / escalate QC gate with a coverage guarantee.
-Reaches a release-grade protocol in about 29 percent fewer experiments than random,
-and auto-decides roughly 79 percent of protocols at zero error while escalating the
-rest to the bench. sklearn / scipy, runs in about 20 seconds.
+In the 12-seed demo it reaches a release-grade protocol in about 19 percent fewer
+experiments than random, and auto-decides roughly 79 percent of protocols at zero
+error while escalating the rest to the bench. sklearn / scipy, runs in about 20 seconds.
 
 ### [plm-design-loop](plm-design-loop)
 A protein language model design loop: ESM-2 zero-shot deep-mutational scanning
